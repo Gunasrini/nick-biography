@@ -1,0 +1,88 @@
+@media screen and (min-width:320px) and (max-width:767px) {
+    ul.menu {
+        position: static;
+        margin-bottom: 20px;
+    }
+
+    .wrapper {
+        margin: 0;
+        padding: 20px;
+    }
+
+    .wrapper h1 {
+        font-size: 27px;
+        margin-bottom: 19px;
+    }
+
+    .menu li {
+        width: 100%;
+        text-align: left;
+    }
+
+    .menu li a {
+        padding: 10px 20px;
+        box-sizing: border-box;
+    }
+
+    .banner {
+        min-height: inherit;
+        color: #fff;
+        padding: 20px;
+    }
+
+    .biography-section img {
+        width: 100%;
+    }
+
+    .biography-section .bio-description {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .biography-section {
+        margin-bottom: 15px;
+    }
+
+    .product-list h3 {
+        font-size: 22px;
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:1024px) {
+    .menu li {
+        width: 24.5%;
+    }
+
+    .wrapper>h1 {
+        margin: 50px 0 20px;
+    }
+
+    .banner {
+        min-height: 300px;
+        color: #fff;
+        padding: 30px;
+    }
+
+    .biography-section img {
+        width: 50%;
+    }
+
+    .biography-section .bio-description {
+        width: 48%;
+    }
+}
+
+@media screen and (min-width:481px) and (max-width:767px) {
+    .menu li {
+        width: 24.3%;
+    }
+
+    .biography-section img {
+        width: 41%;
+    }
+
+    .biography-section .bio-description {
+        width: 56%;
+        margin-top: 0;
+    }
+}

@@ -1,0 +1,169 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui;
+}
+
+body {
+    background-color: #ebebd6;
+}
+
+.wrapper {
+    margin: 35px 70px;
+}
+
+.wrapper>h1 {
+    margin: 60px 0 20px;
+}
+
+.menu {
+    background-color: maroon;
+    /* margin-top: 30px; */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu li {
+    /* display: inline-block; */
+    /* width: 24.7%; */
+    width: 100%;
+    text-align: center;
+    position: relative;
+    list-style-type: none;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 17px;
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+}
+
+.menu li a:hover {
+    color: maroon;
+    background-color: #fff;
+}
+
+ul.submenu {
+    position: absolute;
+    background: #fff;
+    display: none;
+    width: 100%;
+}
+
+ul.submenu li {
+    display: block;
+    width: 100%;
+    text-align: left;
+}
+
+.submenu li a {
+    color: maroon;
+    padding: 10px 15px;
+    box-sizing: border-box;
+}
+
+.submenu li a:hover {
+    background-color: #000;
+    color: #fff;
+}
+
+.menu li:hover .submenu {
+    display: block;
+}
+
+.banner {
+    /* background-image: url("images/nature.jpg"); */
+    min-height: 700px;
+    /* background-repeat: no-repeat;
+    background-size: cover; */
+    background: url("images/nature.jpg") no-repeat 0 0 / cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .banner img {
+    width: 100%;
+} */
+.banner-content {
+    color: #ffff;
+    width: 800px;
+    text-align: center;
+}
+
+.banner-content p {
+    margin: 20px 0;
+}
+
+.biography-section img {
+    float: left;
+    width: 30%;
+}
+
+.biography-section {
+    width: 100%;
+    float: left;
+    margin: 40px 0;
+}
+
+.biography-section .bio-description {
+    float: right;
+    width: 68%;
+}
+
+.bio-description p {
+    margin-bottom: 20px;
+}
+
+.highlight {
+    color: red;
+}
+
+a.readmore-btn {
+    background: orange;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 15px;
+    display: inline-block;
+    border-radius: 4px;
+}
+
+a.readmore-btn:hover {
+    background-color: #222;
+}
+
+.product-list {
+    clear: both;
+    margin-bottom: 20px;
+}
+
+.product-list ol li {
+    list-style-image: url("https://www.w3schools.com/css/sqpurple.gif");
+}
+
+.product-list h3 {
+    font-size: 30px;
+}
+
+
+.product-list ol {
+    margin: 10px 0 0 30px;
+}
+
+.footer {
+    border-top: 2px solid #ccc;
+    padding-top: 12px;
+    color: maroon;
+}
+
+.footer a {
+    color: red;
+}
